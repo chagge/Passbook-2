@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:background="@drawable/pass_container"
+                tools:context=".PassbookFront">
+
+    <TextView
+            android:id="@+id/instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/passbook_text"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Instructions for Device Checkout:" />
+
+    <TextView
+            android:id="@+id/instructions2"
+            android:layout_below="@+id/instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. Scan your passbook\n2. Scan the device\n\nDevices should be returned to their station at the close of each day. Failure to check devices back in will notify you and your manager.\n\nDon't fail." />
+
+</RelativeLayout>
+<!-- From: file:/Users/kbooth/Documents/Passbook/Passbook/src/main/res/layout/activity_passbook_back.xml -->

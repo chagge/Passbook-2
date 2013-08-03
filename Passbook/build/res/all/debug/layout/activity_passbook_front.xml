@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:padding="10dp"
+    android:background="@drawable/pass_container"
+    tools:context=".PassbookFront">
+
+    <TextView
+        android:id="@+id/labelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/passbook_text"
+        android:text="Name" />
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelName"
+        android:textSize="30sp"
+        android:text="Kevin Booth" />
+
+    <TextView
+        android:layout_below="@+id/txtName"
+        android:id="@+id/labelDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/passbook_text"
+        android:layout_marginTop="30dp"
+        android:text="Department" />
+
+    <TextView
+        android:id="@+id/txtDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelDepartment"
+        android:textSize="20sp"
+        android:text="Engineering" />
+
+    <TextView
+            android:layout_below="@+id/txtName"
+            android:id="@+id/labelManager"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/passbook_text"
+            android:layout_marginTop="30dp"
+            android:text="Manager" />
+
+    <TextView
+            android:id="@+id/txtManager"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/labelManager"
+            android:textSize="20sp"
+            android:text="CK Sample III" />
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/kevinbooth"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+<!-- From: file:/Users/kbooth/Documents/Passbook/Passbook/src/main/res/layout/activity_passbook_front.xml -->
